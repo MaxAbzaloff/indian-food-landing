@@ -1,0 +1,65 @@
+.desc {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(212, 216, 217);
+
+  &__content {
+    padding: 80px 0px 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    color: $main-blue;
+    font-family: $main-font;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 33px;
+  }
+
+  &__paragraph {
+    color: $main-blue;
+    font-family: $main-font;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33.33px;
+    margin-bottom: 41px;
+    text-align: center;
+  }
+
+  &__circles {
+    margin-bottom: 42px;
+  }
+
+  &__link {
+    line-height: 14px;
+    color: $main-blue;
+    font-family: $main-font;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 50px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__left-paint {
+    background-image: url("../../assets/decor-01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35.8%;
+  }
+
+  &__right-paint {
+    background-image: url("../../assets/decor-02.png");
+    width: 35.8%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+  }
+}

@@ -1,0 +1,83 @@
+.welcome {
+  height: 100vh;
+  background-image: url("../../assets/welcome-picture.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  &__menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 60px 180px;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+
+  &__link {
+    opacity: 0.78;
+    color: #ffffff;
+    font-family: $main-font;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 25px;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__container {
+    display: flex;
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.82);
+  padding: 120px 110px;
+
+  &__curly {
+    color: #2c3a42;
+    font-family: $curly-font;
+    font-size: 104px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    line-height: 67px;
+  }
+
+  &__main {
+    color: #ad6c12;
+    font-family: $title-font;
+    font-size: 77px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    line-height: 56px;
+  }
+
+  &__link {
+    background-color: #ffffff;
+    color: #26363a;
+    font-family: $title-font;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 17px 25px;
+    line-height: 29px;
+  }
+}

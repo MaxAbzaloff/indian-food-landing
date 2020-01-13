@@ -1,0 +1,10 @@
+.circles {
+  &__circle {
+    background-color: $main-blue;
+    border-radius: 100%;
+    width: 31px;
+    height: 31px;
+    margin-right: 3px;
+    display: inline-block;
+  }
+}
