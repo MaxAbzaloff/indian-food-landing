@@ -1,11 +1,12 @@
 {
-  "name": "boilerplate",
+  "name": "indian-food-restaurant",
   "version": "1.1.0",
-  "description": "boilerplate project",
+  "description": "indian food restaurant",
   "main": "index.js",
   "scripts": {
     "start": "npx gulp",
-    "build": "npx gulp build"
+    "build": "npx gulp build",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [
     "sass",
@@ -17,6 +18,8 @@
   "devDependencies": {
     "browser-sync": "2.26.7",
     "del": "5.0.0",
+    "gh-pages": "^2.2.0",
+    "github-pages": "^3.0.2",
     "gulp": "4.0.2",
     "gulp-changed": "^4.0.2",
     "gulp-clean-css": "4.2.0",
