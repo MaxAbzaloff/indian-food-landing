@@ -1,0 +1,35 @@
+@keyframes burger-1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    tranform: rotate(45deg);
+  }
+}
+
+@keyframes burger-1-r {
+  from {
+    tranform: rotate(45deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes burger-2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    tranform: rotate(-45deg);
+  }
+}
+
+@keyframes burger-3 {
+  from {
+    transform: translateX(0vw);
+  }
+  to {
+    tranform: translateX(50vw);
+  }
+}

@@ -9,6 +9,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 1170px) {
+      padding: {
+        left: 100px;
+        right: 100px;
+      }
+    }
+
+    @media (max-width: 680px) {
+      padding: {
+        left: 30px;
+        right: 30px;
+      }
+    }
   }
 
   &__title {
@@ -53,6 +67,14 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 35.8%;
+
+    @media (max-width: 1320px) {
+      width: 50%;
+    }
+
+    @media (max-width: 1170px) {
+      display: none;
+    }
   }
 
   &__right-paint {
@@ -61,5 +83,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right center;
+
+    @media (max-width: 1320px) {
+      width: 50%;
+    }
+    @media (max-width: 1170px) {
+      display: none;
+    }
   }
 }
