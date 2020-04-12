@@ -314,20 +314,8 @@
 
 		<!-- end of footer -->
 
-		<!-- <script src="./index.js"></script> -->
-		<script>
-			var burger = document.getElementById("burger");
-			var burgetContainer = document.getElementById('burger-container');
-
-			function burgerListener(event) {
-				event.preventDefault();
-				burgetContainer.classList.toggle('menu__container_active');
-				burger.classList.toggle('menu__burger_active');
-				document.body.style.overflow = document.body.style.overflow ? "auto" : "hidden";
-			}
-
-			burger.addEventListener("click", burgerListener);
-		</script>
+		<!-- inject:js -->
+    <!-- endinject -->
 
   </body>
 </html>
